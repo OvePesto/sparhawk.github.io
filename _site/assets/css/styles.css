@@ -1,0 +1,35 @@
+/* NAVIGATIONB */
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
+nav {
+  background: #ccc;
+  padding: 10px;
+  margin: 0;
+  font-weight: bold;
+}
+
+nav a {
+  padding: 10px;
+}
+
+nav a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.navOn {
+  color: green;
+}
+
+/* Padding on Main Content Section. Everything but the top part */
+/* CREATES WEIRD H1 MARGINS . SHOULD BE REORGNIZED */
+.content {
+  padding: 20px;
+}
+
+/* Overriding some Buolma stuff for H1 */
+.content h1 {
+  background-color: rgba(204, 204, 204, 0.5);
+  padding: 20px;
+}
+
+/*# sourceMappingURL=styles.css.map */

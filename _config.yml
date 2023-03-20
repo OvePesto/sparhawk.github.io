@@ -1,3 +1,5 @@
+baseurl: /sparhawk
+
 collections:
   authors:
     output: true
